@@ -4,10 +4,10 @@
 const numbers = [1, 60, 112, 123, 100, 99, 73, 35];
 
 const evenNumbers = numbers.filter(number => numbers % 2 !== 0 && number < 100)
-/*
-let myEvenNumbers = evenNumbers(numbers)*/
+
+let myEvenNumbers = evenNumbers(numbers)
 console.log(evenNumbers) // [1,99,73,35]
-/*
+
 // Exercise 2: From the given array of people, get the people who are allowed to consume alcoholic beverages (i.e age > 21).
 const people = [
   { name: "Candice", age: 25 },
@@ -18,9 +18,6 @@ const people = [
   { name: "Bill", age: 19 }
 ];
 
-/*const adults = (arr) => {
-  
-}
 
 const getOlderThan21 = function (people) {
   return people.age > 21
@@ -33,12 +30,12 @@ console.log(canConsume)
 
 
 //Answer should be 
-[
-  { name: "Candice", age: 25 },
-  { name: "Tammy", age: 30 },
-  { name: "Allen", age: 49 },
-]
-*/
+// [
+//   { name: "Candice", age: 25 },
+//   { name: "Tammy", age: 30 },
+//   { name: "Allen", age: 49 },
+// ]
+
 
 
 

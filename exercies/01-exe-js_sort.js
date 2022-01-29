@@ -2,14 +2,14 @@
 
 //Exercise 1: Using the array (arrOfStrings), sort an array from shortest string to the longest.
 // DO NOT mutate the original array
- /*const arrOfStrings = ['cat', 'wolf', 'yo', 'animal'];
+ const arrOfStrings = ['cat', 'wolf', 'yo', 'animal'];
 
 const longestStr = (arr1, arr2) => {
   return arr1.length - arr2.length
 
 }
 
-console.log(arrOfStrings.sort(longestStr)) */
+console.log(arrOfStrings.sort(longestStr)) 
 
 
 //ANSWER should be ['yo', 'cat', 'wolf', 'animal']
@@ -25,12 +25,12 @@ const sortedStr = (arr1, arr2) => {
    return 0;
 }
 console.log(arrOfStrings.sort(sortedStr))
-/*
+
 let sortedStrings = sortedStr(arrOfStrings)
 console.log(sortedStrings)
 
 //ANSWER should be  ['animal', 'cat', 'wolf', 'yo']
-*/
+
 // COMPLEX EXERCISE 3: Sort the  objects in the array by age in ascending order,
 // if the age is the same sort them alphabetically in descending order
 // Please do not mutate the original array
@@ -53,7 +53,7 @@ const sortByAge = (people1, people2) => {
 
 console.log(people.sort(sortByAge))
 
-/*
+
 let output = sortByAge(people)
 console.log(output)
  
